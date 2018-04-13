@@ -21,7 +21,7 @@ You’ll need to configure your AWS dev account credentials if you want to deplo
 
 To create/retrieve your AWS security access keys:
 
-* Log into the AWS dev account console: https://oes-s1-portal-non-prod.signin.aws.amazon.com/console
+* Log into the AWS console, e.g. https://console.aws.amazon.com
 * Go to the [IAM](https://console.aws.amazon.com/iam/home) page
 * Click 'Users' from the side nav
 * Click your username in the list of Users
