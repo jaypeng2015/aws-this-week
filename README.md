@@ -1,5 +1,3 @@
-[![AWS This Week](https://a0.awsstatic.com/main/images/logos/aws_smile-header-desktop-en-white_59x35.png)](https://github.com/jaypeng2015/aws-this-week)
-
 # AWS This Week
 
 [![Node version](https://img.shields.io/badge/node-_8.10.0-green.svg?style=flat)](http://nodejs.org/download/)
@@ -28,12 +26,13 @@ By default it runs on 00:00 every Monday UTC time.
 
 `npm run release`.
 This will generate a release on github.
-For more information please check [release-it](https://github.com/webpro/release-it)
+For more information please check [release-it](https://github.com/
+bpro/release-it)
 
 ## Resources
 
 * [License (MIT)][license]
 * [Releases][releases]
 
-[license]: ./LICENSE.md
-[releases]: https://github.com/jaypeng2015/wechat-ai/releases
+[license]: ./LICENSE
+[releases]: https://github.com/jaypeng2015/aws-this-week/releases
