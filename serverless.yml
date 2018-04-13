@@ -1,0 +1,22 @@
+service: aws-this-week
+
+plugins:
+  - serverless-prune-plugin
+
+frameworkVersion: ">=1.17.0 <2.0.0"
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: ap-southeast-2
+  environment:
+    WEBHOOK_URL: ${env:WEBHOOK_URL}
+
+functions:
+  notify:
+    handler: handler
+    events:
+      - schedule: cron(0 0 ? * 1 *)
+
+

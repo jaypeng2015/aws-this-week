@@ -1,0 +1,16 @@
+{
+  "extends": ["airbnb-base", "plugin:prettier/recommended"],
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "settings": {
+    "lodash": {
+      "version": 4
+    }
+  },
+  "rules": {
+    "id-length": [2, { "exceptions": ["_", "i", "j", "$"], "min": 2, "properties": "never" }],
+    "no-console": "off"
+  }
+}
