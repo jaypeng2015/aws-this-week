@@ -15,7 +15,9 @@
     "type": "git",
     "url": "git+https://github.com/jaypeng2015/aws-this-week.git"
   },
-  "keywords": ["aws"],
+  "keywords": [
+    "aws"
+  ],
   "author": "Jingwei Peng",
   "license": "MIT",
   "bugs": {
