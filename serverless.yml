@@ -15,7 +15,7 @@ provider:
 
 functions:
   notify:
-    handler: handler
+    handler: index.handler
     events:
       - schedule: cron(0 0 ? * 2 *)
 
