@@ -1,5 +1,15 @@
 {
   "extends": [
     "config:base"
-  ]
+  ],
+  "commitMessagePrefix": "[patch]",
+  "schedule": ["after 6pm and before 8am on every weekday", "every weekend"],
+  "timezone": "Australia/Melbourne",
+  "updateNotScheduled": false,
+  "devDependencies": {
+    "automerge": true,
+    "major": {
+      "automerge": false
+    }
+  }
 }
