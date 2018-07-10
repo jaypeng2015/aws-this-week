@@ -5,7 +5,7 @@
 [![Dependency Status](https://david-dm.org/jaypeng2015/aws-this-week/status.svg)](https://david-dm.org/jaypeng2015/aws-this-week)
 [![devDependency Status](https://david-dm.org/jaypeng2015/aws-this-week/dev-status.svg)](https://david-dm.org/jaypeng2015/aws-this-week?type=dev)
 
-A cron lambda function which gets the link of the latest AWS This Week YouTube video and send it to a slack webhook.
+A cron lambda function which gets the link of the latest `AWS This Week` YouTube video and send it to a slack webhook.
 By default it runs at 00:00 (UTC) every Monday.
 
 ## Getting Started
