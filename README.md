@@ -1,11 +1,12 @@
 # AWS This Week
 
 [![Node version](https://img.shields.io/badge/node-_8.10.0-green.svg?style=flat)](http://nodejs.org/download/)
+![Build Status](https://codebuild.ap-southeast-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiK3Nvb29qODlFalRKVE9rS2xWWjArSGZENVNsVUJKMHRodzhQTTYvQS9rTGpEam01QnAyaVNnTFQ5c2RFa0pVY3ZnRXduWlJsZlFxL1NBY3dTUFMvTEtZPSIsIml2UGFyYW1ldGVyU3BlYyI6ImU5RlB6d2xiZTd4M2hEV0ciLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
 [![Dependency Status](https://david-dm.org/jaypeng2015/aws-this-week/status.svg)](https://david-dm.org/jaypeng2015/aws-this-week)
 [![devDependency Status](https://david-dm.org/jaypeng2015/aws-this-week/dev-status.svg)](https://david-dm.org/jaypeng2015/aws-this-week?type=dev)
 
-A cron lambda function which gets the link of the latest AWS This Week youtube video and send it to a slack webhook.
-By default it runs on 00:00 every Monday UTC time.
+A cron lambda function which gets the link of the latest `AWS This Week` YouTube video and send it to a slack webhook.
+By default it runs at 00:00 (UTC) every Monday.
 
 ## Getting Started
 
