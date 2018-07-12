@@ -4,6 +4,7 @@
 [![Codeship Status for jaypeng2015/aws-this-week](https://app.codeship.com/projects/9a012ef0-67ba-0136-cdd7-3e3131b5ecc0/status?branch=master)](https://app.codeship.com/projects/297691)
 [![Dependency Status](https://david-dm.org/jaypeng2015/aws-this-week/status.svg)](https://david-dm.org/jaypeng2015/aws-this-week)
 [![devDependency Status](https://david-dm.org/jaypeng2015/aws-this-week/dev-status.svg)](https://david-dm.org/jaypeng2015/aws-this-week?type=dev)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 A cron lambda function which gets the link of the latest `AWS This Week` YouTube video and send it to a slack webhook.
 By default it runs at 00:00 (UTC) every Monday.
