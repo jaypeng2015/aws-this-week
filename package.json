@@ -1,7 +1,7 @@
 {
   "name": "aws-this-week",
   "version": "1.0.0",
-  "description": "A cron lambda function that send `aws-this-week` youtube video to a slack channel.",
+  "description": "A cron lambda function that send `AWS This Week` YouTube video to a slack channel.",
   "scripts": {
     "deploy": "serverless deploy -v",
     "invoke-local": "serverless invoke local --function notify",
