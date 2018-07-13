@@ -1,6 +1,6 @@
 {
   "extends": ["config:base"],
-  "commitMessagePrefix": "fix(dependencies):",
+  "semanticCommits": true,
   "schedule": ["after 6pm and before 8am on every weekday", "every weekend"],
   "timezone": "Australia/Melbourne",
   "updateNotScheduled": false,
@@ -9,5 +9,7 @@
     "major": {
       "automerge": false
     }
-  }
+  },
+  "node": { "enabled": false },
+  "npm": { "enabled": false }
 }
