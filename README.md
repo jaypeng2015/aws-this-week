@@ -74,11 +74,7 @@ export WEBHOOK_URL=https://hooks.slack.com/services/XXXXXXXXX/XXXXXXXXX/xxxxxxxx
 
 ## Release
 
-`npm run release`.
-
-This will generate a release on github.
-
-For more information please check [release-it](https://github.com/bpro/release-it)
+Managed by [Codeship](https://codeship.com/) and [semantic-release](https://github.com/semantic-release/semantic-release)
 
 ## Resources
 
