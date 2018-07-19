@@ -1,6 +1,5 @@
 # AWS This Week
 
-[![Node version](https://img.shields.io/badge/node-_8.10.0-green.svg?style=flat)](http://nodejs.org/download/)
 [![Codeship Status for jaypeng2015/aws-this-week](https://app.codeship.com/projects/9a012ef0-67ba-0136-cdd7-3e3131b5ecc0/status?branch=master)](https://app.codeship.com/projects/297691)
 [![Dependency Status](https://david-dm.org/jaypeng2015/aws-this-week/status.svg)](https://david-dm.org/jaypeng2015/aws-this-week)
 [![devDependency Status](https://david-dm.org/jaypeng2015/aws-this-week/dev-status.svg)](https://david-dm.org/jaypeng2015/aws-this-week?type=dev)
