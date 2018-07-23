@@ -20,12 +20,12 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
-        query: {
+        options: {
           presets: [
             [
               'env',
               {
-                target: { node: '8.10' }, // Node version on AWS Lambda
+                targets: { node: '8.10' }, // Node version on AWS Lambda
                 useBuiltIns: true,
                 modules: false,
                 loose: true,
