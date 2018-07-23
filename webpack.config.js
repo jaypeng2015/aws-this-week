@@ -9,6 +9,7 @@ module.exports = {
   externals: [
     /aws-sdk/, // Available on AWS Lambda
   ],
+  mode: slsw.lib.webpack.isLocal ? 'development' : 'production',
   resolve: {
     modules: [path.resolve(__dirname, 'lib'), 'node_modules'],
   },
@@ -30,6 +31,7 @@ module.exports = {
                 loose: true,
               },
             ],
+            'stage-3',
           ],
         },
       },
