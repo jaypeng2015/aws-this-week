@@ -45,7 +45,7 @@
     "eslint-config-prettier": "3.0.1",
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-prettier": "2.6.2",
-    "jest": "23.5.0",
+    "jest": "23.6.0",
     "prettier": "1.14.2",
     "semantic-release": "15.9.14",
     "serverless": "1.30.3",
