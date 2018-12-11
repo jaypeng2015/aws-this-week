@@ -54,7 +54,7 @@
     "webpack": "4.27.1"
   },
   "engines": {
-    "node": "10.14.1"
+    "node": "10.14.2"
   },
   "jest": {
     "testURL": "http://localhost/"
