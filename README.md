@@ -72,7 +72,7 @@ export WEBHOOK_URL=https://hooks.slack.com/services/XXXXXXXXX/XXXXXXXXX/xxxxxxxx
 
 ## Release
 
-Managed by [Travis CI](https://travis-ci.org) and [semantic-release](https://github.com/semantic-release/semantic-release)
+Managed by [Travis CI](https://travis-ci.com) and [semantic-release](https://github.com/semantic-release/semantic-release)
 
 ## Resources
 
