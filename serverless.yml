@@ -4,15 +4,16 @@ plugins:
   - serverless-webpack
   - serverless-prune-plugin
 
-frameworkVersion: ">=1.17.0 <2.0.0"
+frameworkVersion: '>=1.17.0 <2.0.0'
 
 provider:
   name: aws
-  runtime: nodejs8.10
+  runtime: nodejs10.x
   stage: dev
   timeout: 10 # The default is 6
   memorySize: 128
   region: ap-southeast-2
+  versionFunctions: false
   environment:
     WEBHOOK_URL: ${env:WEBHOOK_URL}
 
@@ -21,5 +22,3 @@ functions:
     handler: index.handler
     events:
       - schedule: cron(0 0 ? * 2 *)
-
-
