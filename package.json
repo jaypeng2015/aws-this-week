@@ -30,7 +30,7 @@
     "request-promise-native": "1.0.7"
   },
   "devDependencies": {
-    "@semantic-release/exec": "3.3.6",
+    "@semantic-release/exec": "3.3.7",
     "@semantic-release/git": "7.0.16",
     "eslint": "6.4.0",
     "eslint-config-airbnb-base": "14.0.0",
