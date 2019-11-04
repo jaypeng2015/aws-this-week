@@ -1,3 +1,7 @@
+**Retired**
+
+A Cloud Guru has stopped uploading videos to the Youtube channel and all the videos are self-hosted at https://acloud.guru/series/aws-this-week/. Also the latest link is always https://acloud.guru/series/aws-this-week/view/latest so basically we don’t need this lambda function anymore.
+
 # AWS This Week
 
 [![Build Status](https://travis-ci.com/jaypeng2015/aws-this-week.svg?branch=master)](https://travis-ci.com/jaypeng2015/aws-this-week)
